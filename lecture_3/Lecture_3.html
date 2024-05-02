@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- apply !important rule -->
+    <style>
+        p{
+            color: blue !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- topic :
+        1. !imprtant value
+        2. cascade , specificity , inheritance
+        3. css box model
+        4. accepteble value
+        5. @import value   -->
+
+        <!-- specificity -->
+
+        <!-- 1. inline css 
+             2. id selector 
+             3. class selector 
+             4. element selector  -->
+
+             <p style="color: red;">This is inline style</p>
+
+             <!-- cascade : override css -->
+
+             <h1>This is a cascade style</h1>
+
+             <!-- specificity (ordered - inline , id , class , element name) -->
+             <h4 id="specificity_id" class="specificity_class">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, aperiam.</h4>
+
+             <!-- inheritance : inheritance is the process by which style applied to a parent element are inheritance by its children. -->
+
+             <div class="parant">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+             </div>
+
+              <!-- @import value - apply css in other file and thene import file -->
+
+             <h6>import value</h6>
+</body>
+</html>

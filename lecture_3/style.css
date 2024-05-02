@@ -1,0 +1,49 @@
+/* @import value */
+@import url("importstyle.css");
+
+/* cascade */
+
+h1{
+    color: darkblue;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+/* specificity : */
+
+h4{
+    color: yellowgreen;
+}
+
+#specificity_id{
+    color: brown;
+}
+
+.specificity_class{
+    color: blue;
+}
+
+/* inheritance */
+.parant{
+    color: red;
+}
+
+/* child */
+
+p{
+    color: blue;
+}
+
+/* inherit means parants style take */
+
+p{
+    color: inherit;
+}
+
+/* inherit means default browser style take */
+p{
+    color: inherit;
+}
+
